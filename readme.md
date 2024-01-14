@@ -1,12 +1,16 @@
 # Rocket Mortgage Case Study
-The case study is based on an example from UC Irvine’s [Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 
-Problem definition: 
+We are using the Bank Marketing data set from UC Irvine’s [Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). We will perform an EDA on the data with the long term goal in mind: to create a data-driven method of determining whether a client will be receptive to telephone marketing campaigns. We will get an inital understanding of the feature distribution, how features are related, and use these insights to propose a plan for next steps.
 
-The aforementioned data set includes direct marketing campaigns (i.e. phone calls) of a Portuguese banking institution. The goal is to predict if the client will subscribe a term deposit (indicated in the y variable). The longer term task for this project will be to create a model that will help this banking institution determine, in advance, clients who will be receptive to such marketing campaigns. For this case study, we ask you to take the first steps toward that goal. We ask you to review the dataset and perform initial EDA to inform what initial round of models that you would build to solve this problem. (You do not need to build models as part of this work) The goal is to see how you code and to give us a flavor of how you would attack a new problem, what your initial strategy would be, and what influenced that strategy. 
+## Data
+The data is directly imported into the python environment using the `ucimlrepo` library.
 
-## required packages
-- ucimlrepo
-- pandas
-- seaborn
-##
+## Required Libraries
+- `ucimlrepo`
+- `pandas`
+- `seaborn`
+- `scikit-learn`
+
+## Contents
+- The "notebooks" folder contains all Jupyter notebooks used for this analysis.
+- The "plots" folder contains generated plots to be used for presentations.
